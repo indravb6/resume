@@ -1,0 +1,208 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hi there!</title>
+        <script src="js/jquery.min.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="css/timeline.css" rel="stylesheet"/>
+        <script src="js/bootstrap.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat Alternates' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="images/logo.ico">
+        <link href="css/app.css" rel="stylesheet"/>
+        <link href="css/background-effect.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="particles-js" style="position: fixed;width:100%;"></div>
+
+        <!-- MENU BAR -->
+        <div class="container" style="margin:0px;width:100%;">
+            <div class="row">
+                <div id="menu_bar">
+                    <div class="col-sm-2 menu" id="menu1" onclick="display(1);">Profile</div>
+                    <div class="col-sm-2 menu" id="menu2" onclick="display(2);">Education</div>
+                    <div class="col-sm-2 menu" id="menu3" onclick="display(3);">Skills</div>
+                    <div class="col-sm-2 menu" id="menu4" onclick="display(4);">Professional Experiences</div>
+                    <div class="col-sm-2 menu" id="menu5" onclick="display(5);">Relevant Experiences</div>
+                    <div class="col-sm-2 menu" id="menu6" onclick="display(6);">Achievements</div>
+                </div>
+            </div>
+        </div>
+        <!-- MENU BAR -->
+        
+        <!-- LAYER 1 -->
+        <div id="layer1" class="vertical-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-4"><img id="profile_pic" src="images/profile_pic.png"/></div>
+                    <div class="col-sm-6">
+                        <div id="profile_box">
+                            <h3>Muhammad Indra Ramadhan</h3>
+                            Junior Backend Software Engineer<br/><br/>
+                            <span class='glyphicon glyphicon-envelope'></span> mindrar96@gmail.com<br/>
+                            <span class='glyphicon glyphicon-earphone'></span> +62 8777 426 1350<br/>
+                            <span class='glyphicon glyphicon-map-marker'></span> Ciputat, Tangerang Selatan.<br/>
+                            <br/>
+                            <a href="https://www.facebook.com/Muhammad.Indra.VB6" class="fa fa-facebook" target="_blank"></a>
+                            <a href="https://www.linkedin.com/in/muhammadindrar" target="_blank" class="fa fa-linkedin"></a>
+                            <a href="https://www.instagram.com/indra_vb6/" target="_blank" class="fa fa-instagram"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- LAYER 1 -->
+
+        <!-- LAYER 2 -->
+        <div id="layer2" class="vertical-center">
+            <div class="container" style="margin:0px;width:100%;">
+                <div class="row">
+                    <section class="timeline">
+                        <ol>
+                            <li>
+                                <div>
+                                    <time>Elementary School</time> 
+                                    SDN 10 Pondok Pinang.<br/>
+                                    Graduated as best student
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <time>Junior High School</time> 
+                                    SMPN 85 Jakarta.<br/>
+                                    Start the journey as young programmer
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <time>Senior High School</time> 
+                                    SMAN 34 Jakarta.<br/>
+                                    Got the "Absolute Winner" title on National Science Olympiad in Informatics
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <time>College</time> 
+                                    Universitas Indonesia<br/>
+                                    Coming soon...
+                                </div>
+                            </li>
+                            <li>
+                                <div id="my_dream">
+                                    <time>Work</time> 
+                                    Google<br/>
+                                    Someday...
+                                </div>
+                            </li>
+                            <li style="width:100%;"></li>
+                        </ol>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- LAYER 2 -->
+
+        <!-- LAYER 3 -->
+        <div id="layer3" class="vertical-center">
+            <div class="container" style="margin:0px;width:100%;">
+                <div class="row">
+                    <center>
+                        <svg width="1000" height="500" font-family="sans-serif" font-size="10" text-anchor="middle" style="position:relative;left:-150px;"></svg>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <!-- LAYER 3 -->
+
+        <!-- LAYER 4 -->
+        <div id="layer4" class="vertical-center">
+            <div class="container">
+
+                <div id="profile_box"  style="padding:0px;height: 35%; width:70%;margin-bottom:20px;">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img style="height: 100%;border-radius: 10px 0px 0px 10px;" src="images/GDP.jpg"/>
+                        </div>
+                        <div class="col-sm-8" style="padding:10px;">
+                            <h4>Software Engineer Internship at GDP Labs</h4>
+                            Winter 2018<br/><br/>
+                            <ul>
+                                <li> Developed Group Invitation by Link on <i>chat.kaskus.co.id</i>, used Ejabberd Chat Server/Erlang</li>
+                                <li>Developed GraphQL Subscription on Java, used RxJava and Web socket</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="profile_box"  style="padding:0px;height: 35%; width:70%;">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img style="height: 100%; border-radius: 10px 0px 0px 10px;" src="images/Kiloin.jpg"/>
+                        </div>
+                        <div class="col-sm-8" style="padding:10px;">
+                            <h4>Software Engineer at Kiloin.Id Project</h4>
+                            Not published yet<br/><br/>
+                            <ul>
+                                <li>A digitalize junk bank that made with 12 members including 4 software engineer.</li>
+                                <li>Used Django, ReactJS and MySQL Database</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- LAYER 4 -->
+
+        <!-- LAYER 5 -->
+        <div id="layer5" class="vertical-center">
+            <div class="container">
+                <div id="profile_box"  style="padding:0px; height:auto;width:70%;">
+                    <img style="width:100%;border-radius:10px 10px 0px 0px;position:relative;" src="images/profile_background.jpg"/>
+                    <div style="padding:20px;position:relative;">
+                        <center>
+                            Prepared problems for the Provincial Science Olympiad in Informatics 2018<br/>
+                            Committee of National Science Olympiad Alumni Forum 2017<br/>
+                            Participated in the 1<sup>st</sup>, 2<sup>nd</sup> and 3<sup>rd</sup> National Training Camp (TOKI) in Informatics 2017<br/>
+                            Participated in the 1<sup>st</sup> and 2<sup>nd</sup> National Training Camp (TOKI) in Informatics 2016<br/>
+                            Head of Computer Extracurricular SMAN 34 Jakarta 2016<br/>
+                            Head of Computer Extracurricular SMAN 34 Jakarta 2015<br/>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- LAYER 5 -->
+        
+        <!-- LAYER 6 -->
+        <div id="layer6" class="vertical-center">
+            <div id="profile_box"  style="padding:0px;height: 35%; width:70%;">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img style="height: 100%; border-radius: 10px 0px 0px 10px;" src="images/gold.jpg"/>
+                    </div>
+                    <div class="col-sm-8" style="padding:10px;">
+                        <h4>Achievements</h4>
+                        <ul>
+                            <li><b>Finalist</b>, ACM-ICPC Asia-Jakarta Regional Programming Contest 2017</li>
+                            <li><b>Finalist</b>, Gemastik 10 - Programming Contest</li>
+                            <li><b>Honorable Mention</b>, Senior Competitive Programming Contest Compfest 9</li>
+                            <li><b>Bronze Medals</b>, The Asia-Pacific Informatics Olympiad 2017</li>
+                            <li><b>Gold Medals</b>, National Science Olympiad in Informatics 2016</li>
+                            <li><b>Bronze Medals</b>, National Science Olympiad in Informatics 2015</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- LAYER 6 -->
+
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="js/bubble-chart.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/particles.min.js"></script>
+        <script src="js/background-effect.js"></script>
+                                            
+    </body>
+</html>

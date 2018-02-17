@@ -1,0 +1,29 @@
+id,value
+skill,
+skill,
+skill.language,
+skill.language.C++,2000
+skill.language.Python,4000
+skill.language.Java,3500
+skill.language.JavaScript,2400
+skill.language.PHP,5200
+skill.language.C#,2500
+skill.language.Erlang,3000
+skill.framework,
+skill.framework.Spring, 5100
+skill.framework.Django, 2800
+skill.framework.Laravel, 800
+skill.framework.ReactJS, 2400
+skill.framework.Net, 3000
+skill.technique,
+skill.technique.DynamicProgramming, 4000
+skill.technique.Graph, 3400
+skill.technique.Greedy, 1000
+skill.technique.DataStructure, 2600
+skill.technique.Math, 800
+skill.other,
+skill.other.MySQL, 3700
+skill.other.Git, 3200
+skill.other.Linux, 1500
+
+

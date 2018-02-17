@@ -1,0 +1,90 @@
+
+#profile_pic{
+    height: 40%;
+    border-radius: 100%;
+    border: 5px solid white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 30px 0 rgba(0, 0, 0, 0.19);
+
+}
+#profile_box{
+    margin: auto;
+    height: 40%;
+    background-color: #FDF3E7;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.vertical-center {
+    min-height: 90%;
+    display: flex;
+    align-items: center;
+  }
+#menu{
+    position: fixed;
+}
+.menu{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #3B3738;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+.menu:hover{
+    cursor: pointer;
+    background-color: rgb(70, 70, 70);
+}
+body{
+    font-family: 'Montserrat Alternates';
+    background: linear-gradient(to bottom right, rgb(0, 1, 19), rgb(20, 8, 135)) !important;
+}
+.fa {
+    padding: 5px;
+    font-size: 19px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: rgba(255, 255, 255, 0.556);
+    text-decoration: none;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-left: 10px;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin-left: 10px;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    margin-left: 10px;
+  }
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    margin-left: 10px;
+  }
+
+#my_dream{
+    background-color:rgba(255, 255, 255, 0.3)
+}
+#my_dream::before{
+    border-color:rgba(255, 255, 255, 0.3) transparent transparent transparent;
+}
